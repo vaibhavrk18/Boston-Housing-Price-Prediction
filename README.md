@@ -1,12 +1,12 @@
-** Boston Housing Dataset Analysis ** 
+# Boston Housing Dataset Analysis 
 Project Description
 This project aims to analyze the Boston Housing dataset to gain insights into housing prices and related factors.
 
-** Libraries Used ** 
-# data tranform and statistical operation
+# Libraries Used ** 
+data tranform and statistical operation
 import pandas as pd
 import numpy as np
-# visualization
+### visualization
 import matplotlib.pyplot as plt
 """"magic command after using this, no need to use plt.show()
 Without %matplotlib inline, you would need to use plt.show() after creating a plot to display
@@ -14,7 +14,7 @@ it. However, with this magic command, plots are automatically displayed when the
 %matplotlib inline
 import seaborn as sns
 from pandas.plotting import scatter_matrix
-# sampling and split
+### sampling and split
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedShuffleSplit
 # imputation
