@@ -2,7 +2,7 @@
 Project Description
 This project aims to analyze the Boston Housing dataset to gain insights into housing prices and related factors.
 
-# Libraries Used ** 
+# Libraries Used
 data tranform and statistical operation
 import pandas as pd
 import numpy as np
@@ -17,15 +17,15 @@ from pandas.plotting import scatter_matrix
 ### sampling and split
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedShuffleSplit
-# imputation
+### imputation
 from sklearn.impute import SimpleImputer
-# pipeline
+### pipeline
 from sklearn.pipeline import Pipeline
-# model selection, regressors
+### model selection, regressors
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
-# normalization and scaling technique
+### normalization and scaling technique
 from sklearn.preprocessing import StandardScaler
-# model evaluation
+### model evaluation
 from sklearn.metrics import mean_squared_error
